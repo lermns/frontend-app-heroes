@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from "react-router";
+import { createHashRouter, Navigate } from "react-router";
 
 import HomePage from "@/heroes/pages/home/HomePage";
 import { HeroPage } from "@/heroes/pages/heroes/HeroPage";
@@ -11,7 +11,7 @@ import { lazy } from "react";
 // para importarlo de manera directa definimos el export default en el SearchPage.tsx
 const SearchPage = lazy(() => import("@/heroes/pages/search/SearchPage"));
 
-export const appRouter = createBrowserRouter([
+export const appRouter = createHashRouter([
   {
     path: "/",
     element: <HeroesLayout />,
