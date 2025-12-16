@@ -54,13 +54,13 @@ export default function HomePage() {
     <>
       {/* Header */}
       <CustomJumbotron
-        title="SuperHero Universe"
+        title="El Universo de los Super Héroes"
         description="Descubre, explora y admininistra super heroes y villanos"
       />
 
       <CustomBreadCrumbs
         currentPage="Inicio"
-        breadcrumbs={[{ label: "Búsqueda Heroes", to: "/search" }]}
+        breadcrumbs={[{ label: "Búsqueda", to: "/search" }]}
       />
 
       {/* Stats Dashboard */}
@@ -70,8 +70,8 @@ export default function HomePage() {
       {/* <SearchControls /> */}
 
       {/* Tabs */}
-      <Tabs value={selectedTab} className="mb-8 px-[1%]">
-        <TabsList className="grid w-full grid-cols-4">
+      <Tabs value={selectedTab} className="mb-8 p-1">
+        <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 gap-2">
           <TabsTrigger
             value="all"
             onClick={() => {
@@ -84,7 +84,7 @@ export default function HomePage() {
               });
             }}
           >
-            All Characters ({summary?.totalHeroes})
+            Todos los Personajes ({summary?.totalHeroes})
           </TabsTrigger>
           <TabsTrigger
             value="favorites"
@@ -96,7 +96,7 @@ export default function HomePage() {
               });
             }}
           >
-            Favorites ({favoriteCount})
+            Favoritos ({favoriteCount})
           </TabsTrigger>
           <TabsTrigger
             value="heroes"
@@ -122,13 +122,13 @@ export default function HomePage() {
               });
             }}
           >
-            Villains ({summary?.villainCount})
+            Villanos ({summary?.villainCount})
           </TabsTrigger>
         </TabsList>
       </Tabs>
 
       {/* Tabs Cards Heroes */}
-      <Tabs value={selectedTab} className="mb-8 px-[1%]">
+      <Tabs value={selectedTab} className="mb-8 p-3">
         <TabsContent value="all">
           {/* Mostrar todos los personajes */}
           <HeroGrid heroes={dataResponseHeroes?.heroes ?? []} />

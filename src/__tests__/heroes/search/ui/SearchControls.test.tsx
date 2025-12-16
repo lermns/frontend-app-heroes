@@ -52,7 +52,7 @@ describe("SearchControls", () => {
   test("should set input value when search param name is set", () => {
     renderSearchControls(["/?name=Joker"]);
     const input = screen.getByPlaceholderText(
-      "Search heroes, villains, powers, teams..."
+      "Búsqueda, heroes, villanos..."
     );
 
     expect(input.getAttribute("value")).toBe("Joker");
@@ -62,7 +62,7 @@ describe("SearchControls", () => {
     renderSearchControls(["/?name=Joker"]);
 
     const input = screen.getByPlaceholderText(
-      "Search heroes, villains, powers, teams..."
+      "Búsqueda, heroes, villanos..."
     );
 
     expect(input.getAttribute("value")).toBe("Joker");

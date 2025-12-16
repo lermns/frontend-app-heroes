@@ -102,12 +102,12 @@ const renderHeroStats = (mockData?: Partial<SummaryInformationResponse>) => {
 describe("HeroStats", () => {
   test("should render component with default values", () => {
     renderHeroStats();
-    expect(screen.getByText("Smartest")).toBeDefined();
+    expect(screen.getByText("El más Inteligente")).toBeDefined();
   });
 
   test("should render HeroStats with mock information", () => {
     renderHeroStats(mockSummaryData);
-    expect(screen.getByText("Total Characters")).toBeDefined();
+    expect(screen.getByText("Todos los Personajes")).toBeDefined();
   });
 
   test("should change the percentage of favorites when a hero is added to favs", () => {

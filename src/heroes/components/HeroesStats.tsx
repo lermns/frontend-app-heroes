@@ -13,7 +13,7 @@ export const HeroesStats = () => {
     <>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <HeroStatCard
-          title="Total Characters"
+          title="Todos los Personajes"
           icon={<Users className="h-4 w-4 text-muted-foreground" />}
         >
           <div className="text-2xl font-bold">{summary?.totalHeroes}</div>
@@ -28,7 +28,7 @@ export const HeroesStats = () => {
         </HeroStatCard>
 
         <HeroStatCard
-          title="Favorites"
+          title="Favoritos"
           icon={<Heart className="h-4 w-4 text-muted-foreground" />}
         >
           <div
@@ -42,29 +42,29 @@ export const HeroesStats = () => {
             data-testid="favorite-percentage"
           >
             {((favoriteCount * 100) / (summary?.totalHeroes ?? 1)).toFixed(2)}%
-            of total
+            del total
           </p>
         </HeroStatCard>
 
         <HeroStatCard
-          title="Strongest"
+          title="El más Fuerte"
           icon={<Zap className="h-4 w-4 text-muted-foreground" />}
         >
           <div className="text-lg font-bold">
             {summary?.strongestHero.alias}
           </div>
           <p className="text-xs text-muted-foreground">
-            Strength {summary?.strongestHero.strength}/10
+            Fuerza {summary?.strongestHero.strength}/10
           </p>
         </HeroStatCard>
 
         <HeroStatCard
-          title="Smartest"
+          title="El más Inteligente"
           icon={<Trophy className="h-4 w-4 text-muted-foreground" />}
         >
           <div className="text-lg font-bold">{summary?.smartestHero.alias}</div>
           <p className="text-xs text-muted-foreground">
-            Intelligence: {summary?.smartestHero.intelligence}/10
+            Inteligencia: {summary?.smartestHero.intelligence}/10
           </p>
         </HeroStatCard>
       </div>

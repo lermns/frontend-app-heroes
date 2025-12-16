@@ -79,7 +79,7 @@ exports[`SearchPage > should call search action with name parameter 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Total Characters
+          Todos los Personajes
         </div>
         <svg
           aria-hidden="true"
@@ -143,7 +143,7 @@ exports[`SearchPage > should call search action with name parameter 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Favorites
+          Favoritos
         </div>
         <svg
           aria-hidden="true"
@@ -176,7 +176,7 @@ exports[`SearchPage > should call search action with name parameter 1`] = `
           data-testid="favorite-percentage"
         >
           NaN
-          % of total
+          % del total
         </p>
       </div>
     </div>
@@ -192,7 +192,7 @@ exports[`SearchPage > should call search action with name parameter 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Strongest
+          El más Fuerte
         </div>
         <svg
           aria-hidden="true"
@@ -222,7 +222,7 @@ exports[`SearchPage > should call search action with name parameter 1`] = `
         <p
           class="text-xs text-muted-foreground"
         >
-          Strength 
+          Fuerza 
           /10
         </p>
       </div>
@@ -239,7 +239,7 @@ exports[`SearchPage > should call search action with name parameter 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Smartest
+          El más Inteligente
         </div>
         <svg
           aria-hidden="true"
@@ -284,7 +284,7 @@ exports[`SearchPage > should call search action with name parameter 1`] = `
         <p
           class="text-xs text-muted-foreground"
         >
-          Intelligence: 
+          Inteligencia: 
           /10
         </p>
       </div>
@@ -378,7 +378,7 @@ exports[`SearchPage > should call search action with strength and name parameter
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Total Characters
+          Todos los Personajes
         </div>
         <svg
           aria-hidden="true"
@@ -442,7 +442,7 @@ exports[`SearchPage > should call search action with strength and name parameter
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Favorites
+          Favoritos
         </div>
         <svg
           aria-hidden="true"
@@ -475,7 +475,7 @@ exports[`SearchPage > should call search action with strength and name parameter
           data-testid="favorite-percentage"
         >
           NaN
-          % of total
+          % del total
         </p>
       </div>
     </div>
@@ -491,7 +491,7 @@ exports[`SearchPage > should call search action with strength and name parameter
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Strongest
+          El más Fuerte
         </div>
         <svg
           aria-hidden="true"
@@ -521,7 +521,7 @@ exports[`SearchPage > should call search action with strength and name parameter
         <p
           class="text-xs text-muted-foreground"
         >
-          Strength 
+          Fuerza 
           /10
         </p>
       </div>
@@ -538,7 +538,7 @@ exports[`SearchPage > should call search action with strength and name parameter
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Smartest
+          El más Inteligente
         </div>
         <svg
           aria-hidden="true"
@@ -583,7 +583,7 @@ exports[`SearchPage > should call search action with strength and name parameter
         <p
           class="text-xs text-muted-foreground"
         >
-          Intelligence: 
+          Inteligencia: 
           /10
         </p>
       </div>
@@ -677,7 +677,7 @@ exports[`SearchPage > should call search action with strength parameter 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Total Characters
+          Todos los Personajes
         </div>
         <svg
           aria-hidden="true"
@@ -741,7 +741,7 @@ exports[`SearchPage > should call search action with strength parameter 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Favorites
+          Favoritos
         </div>
         <svg
           aria-hidden="true"
@@ -774,7 +774,7 @@ exports[`SearchPage > should call search action with strength parameter 1`] = `
           data-testid="favorite-percentage"
         >
           NaN
-          % of total
+          % del total
         </p>
       </div>
     </div>
@@ -790,7 +790,7 @@ exports[`SearchPage > should call search action with strength parameter 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Strongest
+          El más Fuerte
         </div>
         <svg
           aria-hidden="true"
@@ -820,7 +820,7 @@ exports[`SearchPage > should call search action with strength parameter 1`] = `
         <p
           class="text-xs text-muted-foreground"
         >
-          Strength 
+          Fuerza 
           /10
         </p>
       </div>
@@ -837,7 +837,7 @@ exports[`SearchPage > should call search action with strength parameter 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Smartest
+          El más Inteligente
         </div>
         <svg
           aria-hidden="true"
@@ -882,7 +882,7 @@ exports[`SearchPage > should call search action with strength parameter 1`] = `
         <p
           class="text-xs text-muted-foreground"
         >
-          Intelligence: 
+          Inteligencia: 
           /10
         </p>
       </div>
@@ -976,7 +976,7 @@ exports[`SearchPage > should render SearchPage with default values 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Total Characters
+          Todos los Personajes
         </div>
         <svg
           aria-hidden="true"
@@ -1040,7 +1040,7 @@ exports[`SearchPage > should render SearchPage with default values 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Favorites
+          Favoritos
         </div>
         <svg
           aria-hidden="true"
@@ -1073,7 +1073,7 @@ exports[`SearchPage > should render SearchPage with default values 1`] = `
           data-testid="favorite-percentage"
         >
           NaN
-          % of total
+          % del total
         </p>
       </div>
     </div>
@@ -1089,7 +1089,7 @@ exports[`SearchPage > should render SearchPage with default values 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Strongest
+          El más Fuerte
         </div>
         <svg
           aria-hidden="true"
@@ -1119,7 +1119,7 @@ exports[`SearchPage > should render SearchPage with default values 1`] = `
         <p
           class="text-xs text-muted-foreground"
         >
-          Strength 
+          Fuerza 
           /10
         </p>
       </div>
@@ -1136,7 +1136,7 @@ exports[`SearchPage > should render SearchPage with default values 1`] = `
           class="text-sm font-medium"
           data-slot="card-title"
         >
-          Smartest
+          El más Inteligente
         </div>
         <svg
           aria-hidden="true"
@@ -1181,7 +1181,7 @@ exports[`SearchPage > should render SearchPage with default values 1`] = `
         <p
           class="text-xs text-muted-foreground"
         >
-          Intelligence: 
+          Inteligencia: 
           /10
         </p>
       </div>
