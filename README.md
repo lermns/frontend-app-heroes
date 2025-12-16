@@ -1,14 +1,47 @@
-# Heroes App
+# 🦸 Heroes App
 
-Aplicación web desplegada en Netlify con backend desarrollado en NestJS y desplegado en Railway.
+Aplicación web desarrollada con **React + TypeScript** para la visualización y búsqueda de héroes y villanos.
 
-## 🛠️ Tecnologías usadas
+El frontend está desplegado en **Netlify** y consume un backend desarrollado en **NestJS**, desplegado en **Railway**.
 
-React + TypeScript
+🔗 **Demo:** [HeroApp](https://singular-caramel-cb9770.netlify.app/#/)  
+🔗 **Backend:** NestJS (Railway)
 
-Tailwind CSS
+---
 
-NestJS
+## 🚀 Tecnologías utilizadas
+
+### Frontend
+- React + TypeScript
+- Tailwind CSS
+- React Router
+- TanStack React Query
+- Vitest + React Testing Library
+
+### Backend
+- NestJS
+- API REST
+
+---
+
+## ✨ Funcionalidades principales
+
+- Listado de héroes y villanos
+- Paginación y filtros por nivel de fuerza.
+- Búsqueda avanzada con parámetros en la URL.
+- Sistema de favoritos persistido en `localStorage`
+- Navegación mediante tabs.
+- Manejo de estados de carga usando los parametros de la URL.
+- Tests unitarios y de integración.
+
+---
+
+## 🧪 Testing
+
+El proyecto incluye tests para:
+- Custom hooks
+- Componentes
+- Páginas con navegación y mocks
 
 ## 🚀 Levantar el entorno de desarrollo
 
@@ -16,18 +49,18 @@ Clonar el repositorio
 
 Crear y configurar el archivo .env basándose en .env.template
 
-Ejecutar `npm install`
+Ejecutar:
+```npm install```
 
-Ejecutar `npm run dev`
+Ejecutar 
+```npm run dev```
 
 ⚠️ Es necesario tener el backend en ejecución en el puerto 3000, configurado previamente en el archivo .env.
 
-## 🧪 Tests
+Para ejecutar los tests:
 
-Los tests están realizados con Vitest.
+```bash
+npm run test
+```
 
-Para ejecutarlos:
-
-`npm run test`
-
-⚠️ Para que los tests funcionen correctamente, el backend debe estar corriendo en el puerto 3001.
+El Backend debe estar corriendo en el puerto 3001 para ejecutar los tests.
