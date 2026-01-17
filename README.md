@@ -5,7 +5,7 @@ Aplicación web desarrollada con **React + TypeScript** para la visualización y
 El frontend está desplegado en **Netlify** y consume un backend desarrollado en **NestJS**, desplegado en **Render**.  
 Debido al plan gratuito de Render, el backend se suspende por inactividad, por lo que la web puede tardar aproximadamente 30-40 segundos en arrancar.
 
-🔗 **Demo:** [HeroApp](https://singular-caramel-cb9770.netlify.app/#/)  
+🔗 **Demo:** [HeroApp](spectacular-daifuku-834b1f.netlify.app/#/)  
 🔗 **Backend:** NestJS (Railway)
 
 ---
